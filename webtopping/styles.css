@@ -10,7 +10,7 @@ body{
     align-items: center;
     height: 100vh;
     text-align: center;
-    background-image: url('./imagenes/pizza.png');
+    background-image: url('./imagenes/matriz.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -33,7 +33,7 @@ body{
     margin: 10px 20px;
 }
 
-.topping{
+.top{
     width: 100%;
     align-items: center;
     display: flex;
@@ -53,10 +53,10 @@ ul{
 }
 
 .fondo-marron{
-    background-color: #aa5822;
+    background-color: #060F15;
 }
 
 .fondo-naranja{
-    background-color: #ff7b0f ;
+    background-color: #3FC4E9;
 }
 
