@@ -45,7 +45,7 @@
 
 // 7 Eventos de DOM
 
-// Elemento Target: Es el elmento donde va ocurrir ese evento
+// Elemento Target: Es el elemento donde va ocurrir ese evento
 
 // Trigger es la accion que decencadena otras acciones
 

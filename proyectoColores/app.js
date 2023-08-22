@@ -2,7 +2,7 @@ const  buttonEl = document.querySelector('button')
 const colorEl = document.getElementById('color')
 
 function generaColorHexadecimal(){
-    let digitos = '0123456789ABCDEFG'
+    let digitos = '0123456789ABCDEF'
     let colorHex = '#'
 
     for (let i = 0; i < 6; i++) {
@@ -14,7 +14,7 @@ function generaColorHexadecimal(){
 }
 
 
-buttonEl.addEventListener('click', () => {
+buttonEl.addEventListener('click', function() {
     let colorAleatorio = generaColorHexadecimal()
     colorEl.textContent = colorAleatorio
     document.body.style.backgroundColor = colorAleatorio
