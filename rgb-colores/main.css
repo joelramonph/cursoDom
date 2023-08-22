@@ -25,3 +25,19 @@ body{
     background-color: white;
     border-radius: 50px;
 }
+
+.color{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label,p{
+     margin: 20px;
+}
