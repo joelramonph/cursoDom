@@ -15,15 +15,15 @@ body{
 }
 
 .container-principal{
-    display: flex;
-    width: 50vh;
-    max-width: 600px;
-    min-height: 350px;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     background-color: white;
     border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+    min-height: 350px;
+    width: 50vh;
 }
 
 .color{
